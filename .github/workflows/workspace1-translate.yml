@@ -28,6 +28,8 @@ jobs:
           echo "::add-mask::${{ secrets.WORKSPACE4_REPOSITORY_NAME }}"
           echo "::add-mask::${{ secrets.WORKSPACE5_REPOSITORY }}"
           echo "::add-mask::${{ secrets.WORKSPACE5_REPOSITORY_NAME }}"
+          echo "::add-mask::${{ secrets.WORKSPACE6_REPOSITORY }}"
+          echo "::add-mask::${{ secrets.WORKSPACE6_REPOSITORY_NAME }}"
 
       - uses: actions/checkout@v2
         with:
